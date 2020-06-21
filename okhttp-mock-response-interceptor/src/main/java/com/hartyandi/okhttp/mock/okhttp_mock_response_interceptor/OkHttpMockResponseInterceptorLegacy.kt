@@ -8,13 +8,17 @@ import retrofit2.Invocation
 import retrofit2.Response
 
 
-//class OkHttpMockResponseInterceptorLegacy(val context: Context) : Interceptor {
+//class MockInterceptor() : Interceptor {
 //    override fun intercept(chain: Interceptor.Chain): okhttp3.Response {
+//        val response = chain.proceed(chain.request())
+//
 //        val annotation =
-//            chain
-//                .proceed(chain.request())
+//            response
 //                .request()
 //                .tag(Invocation::class.java)?.method()?.getAnnotation(MOCK::class.java)
+//
+//        response.close()
+//
 //
 //        if (annotation != null) {
 //            return chain
