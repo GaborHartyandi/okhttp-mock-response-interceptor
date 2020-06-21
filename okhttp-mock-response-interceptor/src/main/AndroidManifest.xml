@@ -1,0 +1,2 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hartyandi.okhttp.mock.okhttp_mock_response_interceptor" />
